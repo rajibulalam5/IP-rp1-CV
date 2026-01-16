@@ -21,7 +21,7 @@ This project was developed as part of an Internet Programming course to practice
 - Organized folder structure
 
 ## Live Demo
--
+https://rajibulalam5.github.io/IP-rp1-CV/
 
 ## Author
 Rajibul Alam Sourav
