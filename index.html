@@ -1,103 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rajibul Alam Sourav - CV</title>
-
-  <!-- Google Fonts: Inter -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="cv">
+<div class="CV">
 
     <!-- Header -->
-    <div class="header">
-      <div class="header-text">
-        <h1>Rajibul Alam Sourav</h1>
-        <p class="title">Generative AI Engineer</p>
+    <header class="header">
+        <div class="info">
+            <h1>Rajibul Alam Sourav</h1>
+            <p class="title">Aspiring Generative AI Engineer</p>
+            <p>Computer Science Student</p>
+            <p>Bangladesh</p>
+            <p>Email:
+                <a href="mailto:rajibulalam088@gmail.com" class="email-link">
+                    rajibulalam088@gmail.com
+                </a>
+            </p>
 
-        <div class="contact">
-          <a href="mailto:rajibulalam088@gmail.com">rajibulalam088@gmail.com</a>
-          <a href="https://linkedin.com/in/rajibulalam" target="_blank">LinkedIn</a>
-          <a href="https://github.com/rajibulalam5" target="_blank">GitHub</a>
-          <a href="https://codeforces.com/profile/rajibulalam" target="_blank">Codeforces</a>
+            <p class="links">
+                <a href="https://www.linkedin.com/in/rajibulalam/">LinkedIn</a> |
+                <a href="https://github.com/rajibulalam5">GitHub</a> |
+                <a href="https://codeforces.com/profile/rajibulalam">Codeforces</a>
+            </p>
         </div>
-      </div>
 
-      <div class="header-image">
-        <img src="profile.jpg" alt="Profile Photo">
-      </div>
-    </div>
+        <div class="photo">
+            <img src="profile.jpg" alt="Profile Photo">
+        </div>
+    </header>
 
     <!-- Career Objective -->
     <section>
-      <h2>Career Objective</h2>
-      <p>
-        I am a Computer Science student who is beginning my journey in Generative AI, Large Language Models (LLMs), and AI/ML. I am still learning the fundamentals of how AI models work and gaining hands-on experience through small projects, experiments, and self-study. I have a basic understanding of LLM-based applications, model integration, and concepts like RAG, and I am continuously working to improve my skills. I am eager to learn from experienced engineers, grow my understanding of AI/ML systems, and contribute wherever I can while developing into a better AI practitioner.
-      </p>
+        <h2 class="section-heading">Career Objective</h2>
+        <p>
+            I am a Computer Science student who is beginning my journey in
+            Generative Artificial Intelligence, Large Language Models,
+            and Artificial Intelligence and Machine Learning.
+            I am continuously learning through small projects and self-study.
+        </p>
     </section>
 
-    <!-- Programming Skills -->
+    <!-- Technical Skills -->
     <section>
-      <h2>Programming Skills</h2>
-      <p><strong>Languages:</strong> C, C++, Python, JavaScript</p>
-      <p><strong>Backend:</strong> Go (Golang), PHP</p>
-      <p><strong>Frontend:</strong> HTML5, CSS3, Tailwind CSS, React, Next.js</p>
-      <p><strong>Version Control:</strong> Git, GitHub</p>
-      <p><strong>ML Frameworks:</strong> TensorFlow, PyTorch</p>
-      <p><strong>ML Tools:</strong> HuggingFace</p>
+        <h2 class="section-heading">Technical Skills</h2>
+
+        <div class="skills-box">
+            <table class="skills-table">
+                <tr>
+                    <td class="category">Languages</td>
+                    <td>
+                        C , C++,
+                        Python ,
+                        JavaScript 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="category">Frontend</td>
+                    <td>
+                        HTML,
+                        Tailwind CSS,
+                        React,
+                        Next.js
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="category">Backend</td>
+                    <td>
+                        GoLang,
+                        PHP
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="category">Tools</td>
+                    <td>
+                        Git Version Control,
+                        GitHub,
+                        TensorFlow ,
+                        PyTorch ,
+                        Hugging Face 
+                    </td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <!-- Education -->
     <section>
-      <h2>Education</h2>
+        <h2 class="section-heading">Education</h2>
 
-      <div class="item">
-        <h3>Premier University Chittagong</h3>
-        <p>2024 – 2028 | Chattogram, Bangladesh</p>
-      </div>
+        <div class="education-item">
+            <div class="edu-left">
+                <strong>Premier University Chittagong</strong><br>
+                Bachelor of Science-BS, Computer Science and Engineering
+            </div>
+            <div class="edu-right">
+                Oct 2024 – Present<br>
+                Chattogram, Bangladesh
+            </div>
+        </div>
 
-      <div class="item">
-        <h3>BAF Shaheen College, Chittagong</h3>
-        <p>2022 – 2023</p>
-      </div>
+        <div class="education-item">
+            <div class="edu-left">
+                <strong>BAF Shaheen College, Chittagong</strong><br>
+                Higher Secondary Certification
+            </div>
+            <div class="edu-right">
+                Oct 2021 – Dec 2023<br>
+                Chattogram, Bangladesh
+            </div>
+        </div>
 
-      <div class="item">
-        <h3>Railway Public High School</h3>
-        <p>2011 – 2021</p>
-      </div>
+        <div class="education-item">
+            <div class="edu-left">
+                <strong>Railway Public High School</strong><br>
+                Secondary School Certification
+            </div>
+            <div class="edu-right">
+                Jan 2010 – Feb 2021<br>
+                Chattogram, Bangladesh
+            </div>
+        </div>
     </section>
 
     <!-- Projects -->
     <section>
-      <h2>Projects</h2>
+        <h2 class="section-heading">Projects</h2>
 
-      <div class="item">
-        <h3>zrfGPT</h3>
-        <ul>
-          <li>Context-aware LLM-powered Discord chatbot</li>
-          <li>Prompt control and model configuration</li>
+        <p>
+            <strong><a href="https://github.com/rajibulalam5/zrfGPT" target="_blank">zrfGPT</a>:</strong>
+            Example Discord bot written in Python that uses the chat completions API
+            to have conversations with the gpt-3.5-turbo model, and the moderations API
+            to filter messages. Uses OpenAI Python Library and discord.py.
+        </p>
+
+        <p><strong>Key Features:</strong></p>
+        <ul class="key-features">
+            <li>/chat starts a public thread with a first user message. Temperature and max_tokens can be adjusted.</li>
+            <li>The model generates replies for every user message in any thread started with /chat.</li>
+            <li>The entire thread context is passed for each request, so previous messages are remembered.</li>
+            <li>Threads close when context limit or max message count is reached.</li>
+            <li>Model can be changed; default is gpt-3.5-turbo.</li>
         </ul>
-      </div>
 
+        <p>
+            <strong><a href="https://github.com/rajibulalam5/AI-Rescue---An-AI-Based-Emergency-Response-System-" target="_blank">AI-Rescue</a>:</strong>
+            Artificial Intelligence based emergency response system
+            that detects accidents, fires, and distress situations in
+            real time using computer vision and drone integration.
+        </p>
+
+        <p><strong>Key Features:</strong></p>
+        <ul class="key-features">
+            <li>Real-time detection of accidents using computer vision.</li>
+            <li>Fire detection with immediate alerts to authorities.</li>
+            <li>Distress situation recognition for faster emergency response.</li>
+            <li>Drone integration for remote monitoring and assistance.</li>
+            <li>AI-powered decision support to prioritize critical situations.</li>
+        </ul>
     </section>
 
     <!-- Certifications -->
     <section>
-      <h2>Certifications</h2>
+        <h2 class="section-heading">Certifications</h2>
 
-      <div class="item">
         <p>
-          <a href="certificate.jpg" target="_blank">IEE AI/ML Bootcamp</a>
+            <a href="CS BOOTCAMP CERTIFICATES_34-34 (1).pdf" target="_blank" class="project-link">
+                IEE Artificial Intelligence and Machine Learning Bootcamp
+            </a>
         </p>
-      </div>
     </section>
 
-  </div>
+</div>
 
 </body>
 </html>
